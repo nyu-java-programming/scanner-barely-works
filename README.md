@@ -1,4 +1,4 @@
-This repository contains programs in the `src` directory which illustrate the problem of soliciting input of numeric data using Java's `Scanner` class. Solutions to this problem are given.
+This repository contains programs in the `src` directory which illustrate the problem of soliciting input of numeric data using Java's `Scanner` class. Simple solutions to this problem are given that should embarrass all Java afficionados.
 
 ## Folder Structure
 
