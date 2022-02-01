@@ -4,13 +4,7 @@ This repository contains programs in the `src` directory which illustrate the pr
 
 The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: the folder to maintain Java source code files (i.e. `.java` files)
+- `lib`: the folder to maintain dependencies (i.e. external libraries used in this project)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Compiled bytecode files (i.e. `.class` files) will be generated in a `bin` folder by default.
