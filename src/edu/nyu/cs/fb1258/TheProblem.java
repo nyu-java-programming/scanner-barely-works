@@ -7,18 +7,18 @@ import java.util.Scanner;
  */
 public class TheProblem {
     public static void main(String[] args) throws Exception {
-		Scanner scnr = new Scanner(System.in);
+			Scanner scnr = new Scanner(System.in);
 
-		// get user's age
-		System.out.println("Please enter your age: "); 
-		int ageAsInt = scnr.nextInt(); // an int
+			// get user's age
+			System.out.println("Please enter your age: "); 
+			int ageAsInt = scnr.nextInt(); // an int
 
-		// get user's name
-		System.out.println("Please enter your name: "); 
-		String name = scnr.nextLine(); // a String
+			// get user's name
+			System.out.println("Please enter your name: "); 
+			String name = scnr.nextLine(); // a String
 
-        // print out a friendly welcome message
-		System.out.println("Welcome, " +  name + "! You are " + ageAsInt/7 + " years old in dog years!");
-		scnr.close();
+			// print out a friendly welcome message
+			System.out.println("Welcome, " +  name + "! You are " + ageAsInt/7 + " years old in dog years!");
+			scnr.close();
     }
 }
